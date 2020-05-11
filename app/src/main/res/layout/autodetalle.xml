@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="50dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="50dp"
+    tools:context=".AutoDetalle">
+
+
+    <TextView
+        android:id="@+id/textView_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Id"
+        android:textColor="@android:color/background_dark" />
+
+
+    <TextView
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/txtView_marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marca"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark"/>
+    <!--android:inputType="TODO" -->
+
+    <TextView
+        android:id="@+id/textView_modelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modelo"
+        android:textColor="@android:color/background_dark" />
+
+    <EditText
+        android:id="@+id/txtModelo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_green_dark"
+        android:text="GUARDAR"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="eliminar"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="volver"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+</LinearLayout>
